@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>talking to the page</title>
+    <style>
+        .dark {
+            background-color: #1a1a1a;
+            color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main-heading">Welcome</h1>
+
+
+    <button id="theme-toggle">Toggle Dark Mode</button>
+
+    <h2>Click Counter</h2>
+    <button id="counter-btn">Click me</button>
+    <span id="counter-display">0</span>
+
+    <h2>Course List</h2>
+    <input type="text" id="search-input" placeholder="Search courses...">
+    <ul id="course-list"></ul>
+    <button id="add-course-btn">Add Course</button>
+
+    <h2>Sign Up</h2>
+    <form id="signup-form">
+        <label for="signup-name">Name
+            <input type="text" id="signup-name" name="name">
+        </label><br>
+        <label for="signup-email">Email
+            <input type="text" id="signup-email" name="email">
+        </label><br>
+        <button type="submit">Sign Up</button>
+        <p id="form-message"></p>
+    </form>
+
+    <script src="dom events.txt"></script>
+</body>
+</html>
